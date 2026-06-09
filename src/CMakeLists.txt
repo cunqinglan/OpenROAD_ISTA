@@ -285,7 +285,7 @@ add_subdirectory(est)
 add_subdirectory(syn)
 add_subdirectory(web)
 # LRF
-add_subdirectory(lrf)
+add_subdirectory(lgista)
 
 ################################################################
 
@@ -334,8 +334,6 @@ target_link_libraries(openroad
   ppl
   stt
   dbSta
-  # ensure lrf symbols available to the final executable
-  lrf_lib
   OpenSTA
   odb
   odbtcl

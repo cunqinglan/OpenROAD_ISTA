@@ -49,11 +49,6 @@
 #include "stt/SteinerTreeBuilder.h"
 #include "utl/Logger.h"
 
-namespace lrf {
-class LrRebuffer;
-class TestRebuffer;
-class Initializer;
-}  // namespace lrf
 
 namespace rsz {
 class SetupLegacyBase;
@@ -1048,9 +1043,6 @@ class Resizer : public sta::dbStaState, public sta::dbNetworkObserver
   friend class ConcreteSwapArithModules;
   friend class Rebuffer;
   friend class OdbCallBack;
-  friend class lrf::LrRebuffer;
-  friend class lrf::TestRebuffer;
-  friend class lrf::Initializer;
   friend class SetupLegacyBase;
   friend class RepairTargetCollector;
   friend class DelayEstimatorReporter;

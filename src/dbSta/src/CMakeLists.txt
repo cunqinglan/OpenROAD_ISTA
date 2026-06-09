@@ -18,8 +18,6 @@ target_include_directories(dbSta_lib
     ../include
     ${PROJECT_SOURCE_DIR}/include
   PRIVATE
-    # LRF: dbSta.cc uses lrf::IncreSta (symbols resolved at final openroad link)
-    ${PROJECT_SOURCE_DIR}/src/lrf/include
 )
 
 

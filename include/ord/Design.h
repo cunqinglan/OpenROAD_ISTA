@@ -199,7 +199,6 @@ class Design
   /////////////////////////////////////////////////////////////
   // Functions for LR sizing
   /////////////////////////////////////////////////////////////
-  std::vector<odb::dbInst*> sortedInstances();
 
   bool swapInstMaster(odb::dbInst* inst, odb::dbMaster* new_master);
 
